@@ -32,9 +32,6 @@ def localize(colors,measurements,motions,sensor_right,p_move):
     p = [[pinit for row in range(len(colors[0]))] for col in range(len(colors))]
     
     # >>> Insert your code here <<<
-
-    
-    
     # Repeat the sense-measure loop as measures exist
     columns = (len(colors[0]))
     rows = (len(colors))
